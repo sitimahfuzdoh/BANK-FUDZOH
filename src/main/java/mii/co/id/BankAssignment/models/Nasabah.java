@@ -47,6 +47,7 @@ public class Nasabah {
     @Column(name = "nomor_handphone", nullable = false, length = 13)
     private String noHp;
     
-    
+    @Column(name ="email", nullable = false, length = 20)
+    private String email;
     
 }
